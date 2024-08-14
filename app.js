@@ -8,7 +8,7 @@ const app = express();
 
 app.use(express.json());
 
-mongoose.connect("mongodb://localhost:27017/flyBetter").then(()=>{
+mongoose.connect("mongodb+srv://jmuhumuza:UpzZv07X3JfHhdtA@cluster0.p0muz78.mongodb.net/").then(()=>{
     console.log("Connected to MongoDB");
     
 })
